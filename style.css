@@ -7,8 +7,8 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
 	width: 600px;
+	background-attachment: fixed;
 	
 }
 h1{
@@ -46,8 +46,7 @@ h1{
 	color: black;
 	background-color: rgb(201, 121, 78);
 }
+
 footer{
-	width: 1200px;
-	text-align: right;
 	font-size: 200%;
 }

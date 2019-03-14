@@ -2,6 +2,8 @@ body{font-family: 'Courgette', cursive;
 background-image: url(https://easybreezefarm.com/wp-content/uploads/2018/02/Greyhound-Puppy-how-to-care.jpg);
 background-size: cover;
 background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
 font-size: 140%;
 margin: 100px;
 line-height: 35px;
@@ -38,4 +40,8 @@ a{
 
 p{
 	margin-top: 80px;
+}
+img{
+	width: 100%s;
+	height: auto;
 }
