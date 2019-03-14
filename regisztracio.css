@@ -1,0 +1,41 @@
+body{font-family: 'Courgette', cursive;
+background-image: url(https://easybreezefarm.com/wp-content/uploads/2018/02/Greyhound-Puppy-how-to-care.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+font-size: 140%;
+margin: 100px;
+line-height: 35px;
+}
+
+h1{
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+input{
+	font-family: 'Courgette', cursive;
+	font-size: 80%;
+}
+input[type=text],input[type=password],input[type=email] {
+	width: 400px;
+}
+option{
+	font-family: 'Courgette', cursive;
+	font-size: 100%;
+}
+select{
+	font-family: 'Courgette', cursive;
+	font-size: 80%;
+}
+.margin{
+	margin-left: 80px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 130%;
+}
+
+p{
+	margin-top: 80px;
+}

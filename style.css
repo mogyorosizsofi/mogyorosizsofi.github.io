@@ -1,0 +1,53 @@
+body{
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
+	margin: 30px;
+	text-align: justify;
+	background-image: url(https://www.kulturtapas.hu/application/files/9915/3597/1268/spanyol_agar.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 600px;
+	
+}
+h1{
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	width: 200px;
+	box-shadow: 4px 4px 5px black;
+}
+
+.dropdown{
+	margin: 20px;
+}
+
+.btn{
+	color: black;
+	background-color: rgb(201, 121, 78);
+}
+.btn:hover{
+	color: black;
+	background-color: rgb(201, 121, 78);
+}
+.dropdown-item{
+	color: black;
+	background-color: rgb(208, 102, 51);
+	
+}
+.dropdown-item:hover{
+	background-color: rgb(255, 176, 138);
+
+}
+.dropdown-menu{
+	background-color: rgb(208, 102, 51);
+}
+#dropdownMenuLink{
+	color: black;
+	background-color: rgb(201, 121, 78);
+}
+footer{
+	width: 1200px;
+	text-align: right;
+	font-size: 200%;
+}

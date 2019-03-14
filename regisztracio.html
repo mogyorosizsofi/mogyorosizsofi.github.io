@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regisztráció</title>
+	<link rel="stylesheet" type="text/css" href="regisztracio.css">
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+</head>
+<body>
+<h1>Regisztráció</h1>
+Vezetéknév<br>
+ <input type="text" name="vezeteknev"><br>
+Keresztnév<br>
+ <input type="text" name="keresztnev"><br>
+Email-cím<br>
+<input type="email" name="email" required><br>
+Jelszó<br>
+ <input type="password" name="password" min="8"><br>
+Neme: 	<input type="radio" name="gender" value="Nő">Nő
+		<input type="radio" name="gender" value="Férfi">Férfi<br>
+Állatok:<div class="margin"><input type="checkbox" name="állatok">Agár<br>
+		<input type="checkbox" name="állatok">Macska<br>
+		<input type="checkbox" name="állatok">Hörcsög</div>
+Kedvenc agárfajta: <select><option value="Angol">Angol</option>
+							<option value="Magyar">Magyar</option>
+							<option value="Afgán">Afgán</option>
+							<option value="Orosz">Orosz</option>
+</select><br>
+<input type="submit" value="Jóváhagyás">
+<input type="reset" value="Törlés"><br>
+<p><a href="index.html">Vissza a kezdőlapra</a></p>
+</body>
+</html>
